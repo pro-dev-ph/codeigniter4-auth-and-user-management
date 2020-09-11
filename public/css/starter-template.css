@@ -1,0 +1,166 @@
+body {
+    padding-top: 60px;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+}
+
+.logo-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.heroe h1 {
+    font-size: 2.5rem;
+}
+
+.heroe h2 {
+    font-size: 1.5rem;
+}
+
+.text-small {
+    font-size: x-small;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 2.5rem 1.75rem 3.5rem 1.75rem;
+}
+
+section h1 {
+    margin-bottom: 2.5rem;
+}
+
+section h2 {
+    font-size: 120%;
+    line-height: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+section pre {
+    background-color: rgba(247, 248, 249, 1);
+    border: 1px solid rgba(242, 242, 242, 1);
+    display: block;
+    font-size: .9rem;
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+section code {
+    display: block;
+}
+
+section a {
+    color: rgba(221, 72, 20, 1);
+}
+
+section svg {
+    margin-bottom: -5px;
+    margin-right: 5px;
+    width: 25px;
+}
+
+footer {
+    background-color: rgba(221, 72, 20, .8);
+    text-align: center;
+}
+
+footer .copyrights {
+    background-color: rgba(62, 62, 62, 1);
+    color: rgba(200, 200, 200, 1);
+    padding: .25rem 1.75rem;
+}
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 56px;
+        /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #343a40;
+        transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+    color: #007bff;
+}
+
+.nav-underline .active {
+    font-weight: 500;
+    color: #343a40;
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, .5);
+}
+
+.bg-purple {
+    background-color: #6f42c1;
+}
+
+.lh-100 {
+    line-height: 1;
+}
+
+.lh-125 {
+    line-height: 1.25;
+}
+
+.lh-150 {
+    line-height: 1.5;
+}
+/* fix for datatable search input where outline is not fully visible*/
+.table-responsive {
+    overflow-x: unset;
+}
+/* custom design for circular buttons*/
+.btn-circular {
+    border-radius: 50%;
+}
