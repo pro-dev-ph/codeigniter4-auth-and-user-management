@@ -37,7 +37,7 @@ Codeigniter 4 Auth and User management provides complete basic authentication sy
 If you are running on local development, we recommend using `AMPPS`, or `XAMPP` stack which has all the system requirements available in Windows, Mac, Linux Installers.
 
 ## Screenshots
-![Codeigniter 4 Auth - Dashboard](https://i.postimg.cc/5NbGZpJY/manager-dashboard.png)
+![Codeigniter 4 Auth - Dashboard](https://i.postimg.cc/J0ckszHJ/dashboard.png)
 
 ![Codeigniter 4 Auth - Users](https://i.postimg.cc/QM1x8nTK/users.png)
 
