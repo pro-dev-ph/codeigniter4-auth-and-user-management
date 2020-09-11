@@ -11,7 +11,6 @@ Benefits:
 - User acess logs for tracking
 - User Management: Register, Modify, and Delete users
 
-
 Codeigniter 4 Auth and User management provides complete basic authentication system, account viewing, profile editing, and dashboard viewing.
 
 ## Getting started
@@ -38,7 +37,9 @@ Codeigniter 4 Auth and User management provides complete basic authentication sy
 If you are running on local development, we recommend using `AMPPS`, or `XAMPP` stack which has all the system requirements available in Windows, Mac, Linux Installers.
 
 ## Screenshots
-Soon...
+![Codeigniter 4 Auth - Dashboard](https://i.postimg.cc/5NbGZpJY/manager-dashboard.png)
+
+![Codeigniter 4 Auth - Users](https://i.postimg.cc/QM1x8nTK/users.png)
 
 ## Contributing
 
