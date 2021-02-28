@@ -17,7 +17,7 @@
         </div>
     </div>
 
-	<script src="<?= base_url("vendor/jquery/jquery-3.4.1.min.js") ?>" type="text/javascript"></script>
+	<script src="<?= base_url("vendor/jquery/jquery.min.js") ?>" type="text/javascript"></script>
 	<script src="<?= base_url("vendor/bootstrap/js/bootstrap.min.js") ?>" type="text/javascript"></script>
 
 </body>

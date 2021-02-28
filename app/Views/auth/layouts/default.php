@@ -13,6 +13,9 @@
     <?= $this->renderSection('style') ?>
 
     <!-- default styles  -->
+    <link rel="stylesheet" href="<?= base_url('vendor/fontawesome/css/fontawesome.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('vendor/fontawesome/css/solid.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('vendor/fontawesome/css/brands.min.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('vendor/bootstrap/css/bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('css/starter-template.css'); ?>">
 </head>
@@ -31,8 +34,6 @@
 
     <script src="<?= base_url("vendor/jquery/jquery.min.js") ?>" type="text/javascript"></script>
     <script src="<?= base_url("vendor/bootstrap/js/bootstrap.bundle.min.js") ?>" type="text/javascript"></script>
-    <script src="<?= base_url("vendor/fontawesome/js/solid.min.js") ?>" type="text/javascript"></script>
-    <script src="<?= base_url("vendor/fontawesome/js/fontawesome.min.js") ?>" type="text/javascript"></script>
     
     <!-- load extended scripts -->
     <?= $this->renderSection('script') ?>
