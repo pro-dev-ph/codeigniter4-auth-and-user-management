@@ -54,4 +54,4 @@ If you discover a security vulnerability within Codeigniter 4 Auth and User mana
 
 The Codeigniter 4 Auth and User management is open-source software licensed under the [Apache license 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-Copyright (c) 2020-present, Alexis Luna
+Copyright (c) 2020-present, Pro Dev Ph
